@@ -2,7 +2,7 @@
 
 [https://leetcode.com/problems/remove-duplicates-from-sorted-array/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 This problem essentially boils down to returning the number of unique elements in the array. 
-### Approach 1 :  Brute Force
+### Approach 1 :  Brute Force 
 The simplest approach would be to remove any element from the array which has previously occurred. 
 Suppose, we are at an index ***i***, we traverse from 0 to i-1 and remove the elements which are the same as the element at ***i***. 
 A careful observation along with the fact that the array is sorted, we only have to remove the i-1 element if it's the same. 
